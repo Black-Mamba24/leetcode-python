@@ -38,5 +38,4 @@ class Solution:
                 return -1
             else:
                 return max(left, right) + 1
-
         return deep(root) != -1
