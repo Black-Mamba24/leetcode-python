@@ -14,7 +14,7 @@ class Solution:
                 if x == 0:
                     flag = False
                     break
-                tmp = int(tmp / 10)
+                tmp //= 10 # //是整数除法；/是浮点除法
                 if i % x != 0:
                     flag = False
                     break
